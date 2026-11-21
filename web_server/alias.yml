@@ -8,9 +8,6 @@
       template:
         src: alias.temp.j2
         dest: /var/www/html/index.html
-- name: restart the httpd
-  ansible.builtin.service:
-    name: httpd
-    state: restarted
+
 
 
