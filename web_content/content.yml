@@ -1,0 +1,4 @@
+---
+- name: Copy the content to webserver
+  hosts: dev
+  

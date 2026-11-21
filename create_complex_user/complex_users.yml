@@ -1,0 +1,4 @@
+---
+- name: Creating the Users at the Managed_Host
+  hosts: all
+  

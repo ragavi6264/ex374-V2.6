@@ -1,0 +1,12 @@
+---
+- name: Setting facts 
+  set_fact:
+     users: "{{ lookup('file', 'users.conf') | from_yaml}}" 
+- name: Create users 
+  user:
+   name: "{{ item.name }}"
+   uid: "{{ item.uid }}"
+   state: present 
+  loop:
+      "{{ users }}"
+
