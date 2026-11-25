@@ -1,5 +1,5 @@
 #!/bin/bash
-GIT_URL=http://utility.lab.example.com:3000
+GIT_URL=https://git.lab.example.com
 GIT_USER=student
 SRC=~/ex374-V2.6              # folder holding the 9 source folders
 DEST=/home/student/script   # where the clones will live
